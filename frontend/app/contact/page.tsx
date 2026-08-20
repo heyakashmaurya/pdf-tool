@@ -15,7 +15,7 @@ import type { ContactFormData } from "@/lib/validations/contact";
 // import { FORMSPREE_ENDPOINT } from "@/constants/contact";
 
 export const FORMSPREE_ENDPOINT =
-    process.env.FORMSPREE_ENDPOINT!;
+    process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT!;
 
 export default function ContactPage() {
     const [sending, setSending] = useState(false);

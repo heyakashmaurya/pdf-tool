@@ -11,7 +11,7 @@ const MAX_FILE_SIZE = 50 * 1024 * 1024;
 
 const API_BASE_URL =
     process.env.NEXT_PUBLIC_API_URL ||
-    "http://localhost:5000";
+    "https://pdf-tool-backend-tv3z.onrender.com";
 
 type WordFile = {
     file: File;
