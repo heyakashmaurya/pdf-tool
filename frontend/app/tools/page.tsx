@@ -56,6 +56,55 @@ const tools: Tool[] = [
         icon: "🖼️",
     },
     {
+        title: "JPG to PDF",
+        description:
+            "Convert JPG images into a professional PDF document.",
+        href: "/jpg-to-pdf",
+        icon: "📷",
+    },
+    {
+        title: "PDF to JPG",
+        description:
+            "Convert PDF pages into high-quality JPG images.",
+        href: "/pdf-to-jpg",
+        icon: "📸",
+    },
+    {
+        title: "PDF to PNG",
+        description:
+            "Convert PDF pages into high-quality PNG images.",
+        href: "/pdf-to-png",
+        icon: "🖼️",
+    },
+    {
+        title: "PDF to Word",
+        description:
+            "Convert PDF files into editable Word documents.",
+        href: "/pdf-to-word",
+        icon: "📝",
+    },
+    {
+        title: "Word to PDF",
+        description:
+            "Convert Word documents into professional PDF files.",
+        href: "/word-to-pdf",
+        icon: "📄",
+    },
+    {
+        title: "PDF to Excel",
+        description:
+            "Convert PDF tables and data into editable Excel spreadsheets.",
+        href: "/pdf-to-excel",
+        icon: "📊",
+    },
+    {
+        title: "OCR PDF",
+        description:
+            "Make scanned PDFs searchable and extract text using OCR.",
+        href: "/ocr-pdf",
+        icon: "🔍",
+    },
+    {
         title: "Merge PDF",
         description:
             "Combine multiple PDF files into a single PDF document.",
@@ -68,6 +117,13 @@ const tools: Tool[] = [
             "Split a PDF into separate documents quickly and easily.",
         href: "/split-pdf",
         icon: "✂️",
+    },
+    {
+        title: "Compress PDF",
+        description:
+            "Reduce PDF file size while keeping the document readable.",
+        href: "/compress-pdf",
+        icon: "🗜️",
     },
     {
         title: "Extract PDF Pages",
@@ -104,8 +160,14 @@ const tools: Tool[] = [
         href: "/watermark-pdf",
         icon: "💧",
     },
+    {
+        title: "Sign PDF",
+        description:
+            "Add your signature to a PDF document quickly and easily.",
+        href: "/sign-pdf",
+        icon: "✍️",
+    },
 ];
-
 export default function ToolsPage() {
     return (
         <>
