@@ -6,6 +6,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://pdf.heyakashmaurya.com"),
 
+  alternates: {
+            canonical: "https://pdf.heyakashmaurya.com",
+        },
+
+
+
   title: {
     default: "PDFTools - Free Online PDF Tools",
     template: "%s | PDFTools",

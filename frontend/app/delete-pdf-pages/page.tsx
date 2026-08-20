@@ -20,28 +20,6 @@ export const metadata: Metadata = createToolMetadata({
     ],
 });
 
-// export const metadata: Metadata = {
-//   title: "Delete PDF Pages Online Free",
-//   description:
-//     "Delete unwanted pages from a PDF online for free. Select the pages you want to remove and download a new PDF directly in your browser.",
-//   keywords: [
-//     "delete PDF pages",
-//     "remove PDF pages",
-//     "delete pages from PDF",
-//     "remove pages from PDF",
-//     "PDF page remover",
-//     "PDF editor",
-//   ],
-//   alternates: {
-//     canonical: "/delete-pdf-pages",
-//   },
-//   openGraph: {
-//     title: "Delete PDF Pages Online Free",
-//     description:
-//       "Remove unwanted pages from a PDF directly in your browser.",
-//     type: "website",
-//   },
-// };
 
 export default function DeletePdfPagesPage() {
     return (

@@ -65,5 +65,66 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: "monthly",
             priority: 0.8,
         },
+        {
+            url: `${siteUrl}/compress-pdf`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/jpg-to-pdf`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/ocr-pdf`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/pdf-to-excel`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/pdf-to-jpg`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/pdf-to-png`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/pdf-to-word`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/privacy`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/terms`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
+            url: `${siteUrl}/contact`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        
     ];
 }
